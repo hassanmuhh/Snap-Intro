@@ -1,0 +1,73 @@
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  .hero-content {
+    padding: 1.2rem 3.2rem;
+    gap: 2.4rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  .hero-section {
+    width: 100%;
+  }
+
+  .heading-primary {
+    font-size: 5.4rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .hero-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .hero-image {
+    background-image: url('/images/image-hero-mobile.png');
+    height: 30rem;
+    order: -1;
+  }
+
+  .hero-content {
+    align-items: center;
+    margin-top: 2.4rem;
+  }
+
+  .mobileNav-btn {
+    display: block;
+  }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+  .hero-section {
+    padding: 0;
+    width: auto;
+  }
+
+  .heading-primary {
+    font-size: 4.2rem;
+  }
+
+  .brand-logos {
+    gap: 0.4rem;
+  }
+}
