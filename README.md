@@ -16,4 +16,6 @@ Intro Page Design for AbnourGroup Task.
 - Hover States.
 - Drop menu.
 - Mobile Navigation.
+
+## Mobile Navigation
 ![mobile-nav-view](images/mobile-nav-view.png)
